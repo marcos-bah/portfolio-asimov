@@ -135,11 +135,21 @@ span a:hover {text-decoration: underline;color: #000000}
     color: #777f87;
 }
 
-#bloc {
+.bloc {
     margin: 0 0 20px 5px;;
     float: left;
     position: relative;
 }
+
+.social-media {
+    float: right;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.social-media a:link {text-decoration: none;color: #000000}
+.social-media a:active {text-decoration: none;}
+.social-media a:visited {text-decoration: none;color: #000000}
 
 @media only screen and (max-width: 1200px) {
     #container {
@@ -148,59 +158,11 @@ span a:hover {text-decoration: underline;color: #000000}
     }
 }
 
-.fab{
-    position: fixed;
-    bottom:10px;
-    right:10px;
-}
-
-.fab a{
-    cursor: pointer;
-    width: 48px;
-    height: 48px;
-    border-radius: 30px;
-    background-color: #cb60b3;
-    border: none;
-    box-shadow: 0 1px 5px rgba(0,0,0,.4);
-    font-size: 24px;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    line-height: 60px; 
-}
-
-.fab a:link {text-decoration: none;color: #000000}
-.fab a:active {text-decoration: none;}
-.fab a:visited {text-decoration: none;color: #000000}
-
-.fab a:focus{
-    outline: none;
-}
-
-.fab a.main{
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-    background-color: #5b19b7;
-    right: 0;
-    bottom: 0;
-    z-index: 20;
-}
-
-
-.fab a.main:active,
-.fab a.main:focus{
-    outline: none;
-    background-color: #7716ff;
-    box-shadow: 0 3px 8px rgba(0,0,0,.5);
-    }
-
 .footer-big {
     margin-top: 15px;
     background-color: #24292e;
     width: 100%;
-    line-height: 100px;
+    line-height: 50px;
     text-align: center;
     color: white;
 }
@@ -209,3 +171,4 @@ span a:hover {text-decoration: underline;color: #000000}
 .footer-big a:active {text-decoration: none;}
 .footer-big a:visited {text-decoration: none;color: white}
 .footer-big a:hover {text-decoration: underline;color: white}
+
