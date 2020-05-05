@@ -1,9 +1,15 @@
-# portfolio-asimov
+# Portfolio Asimov
 Page developed only with html, css and js.
 
 Página desenvolvida com design "clean", inspirado por Medium.
+Modelo concentual para montagem de blog dinâmico e interativo.
 
-Página concentual para montagem de blog dinâmico e interativo.
+## License
+
+
+MIT
+
+**Free Software, Hell Yeah!**
 
 ## Author
 
