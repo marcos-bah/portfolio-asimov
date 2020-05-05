@@ -1,5 +1,5 @@
 # Portfolio Asimov
-Page developed only with html, css and js.
+Page developed only with html and css.
 
 See a [demo](https://marcos-bah.github.io/portfolio-asimov).
 
